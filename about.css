@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    padding: 10px;
+}
+.img{
+    position: relative;
+    left: 25%;
+    
+}
+h2{
+    color: maroon;
+}
+h3{
+    color: blueviolet;
+}

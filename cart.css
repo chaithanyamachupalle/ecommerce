@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-image: url("cartbackground.jpg");
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+}
+#cart{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+table{
+    background-color: rgb(206, 202, 202,0.8);
+}
+td{
+    padding: 10px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.cancle{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+button{
+    color: white;
+    background-color: rgb(87, 87, 246);
+}
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:maroon;
+    font-size: larger;
+}
+#checkoutButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}

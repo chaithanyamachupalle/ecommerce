@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+   
+}
+div{
+    background-color: white;
+}
+body{
+    background-color: rgb(234, 232, 232);
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background-color:rgb(77, 196, 220);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.sec2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.slideshow-container {
+    max-width: 100%;
+    margin:10px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slide-image {
+    width: 100%;
+    height: 400px;
+}
+.shopnow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(234, 232, 232);
+}
+button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: rgb(68, 68, 243);
+    border: none;
+    border-radius: 8%;
+    font-size: medium;
+}
+.displayItems{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px 5px;
+}
+.showpiece{
+width:auto;
+height:500px;
+}
+h2{
+    color: brown;
+}
+.items{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px ;
+}
+.listImg{
+    width: 200px;
+    height: 200px;
+    gap: 5px 10px;
+    display:grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+.categorey{
+    width: 200px;
+    height: 150px;
+}
+.listImg:hover{
+    transform: scaleX(0.9) scaleY(0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+#signup{
+    margin: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:rgb(234, 232, 232);
+}
+#bg{
+    background-color:rgb(234, 232, 232);   
+}
+#signbtn{
+    background-image: linear-gradient(rgb(230, 230, 90),rgb(236, 172, 52));
+}
+.shopnow:hover,#signbtn:hover{
+    transform: scaleX(1.1);
+}
+#footer{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 30px 120px 30px;
+    text-align: center;
+    padding: 5px;
+}
+#movetop{
+    padding:5px;
+    cursor: pointer;
+    background-color: rgb(82, 77, 77);
+}
+#movetop:hover{
+background-color: rgb(17, 17, 17);
+}
+#info{
+    display:flex;
+    align-items:first baseline;
+    justify-content:flex-start;
+    color: white;
+    text-align: justify;
+    gap: 30px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+#followus,#aboutus{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 30px;
+    text-align: justify;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.links:hover{
+    text-decoration: underline;
+}
+#weblink{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    cursor: pointer;
+}

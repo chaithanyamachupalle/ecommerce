@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    font-style:normal;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px;
+    background-image: url("viewbackground.jpg");
+}
+#image{
+   padding: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#details{
+    width: 500px;
+    height: 500px;
+}
+h2,h5{
+    color: black;
+}
+h3{
+    color: rgb(45, 47, 98);
+}
+button{
+    color: white;
+    background-color: rgb(87, 87, 246);
+}
